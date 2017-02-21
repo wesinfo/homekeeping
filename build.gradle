@@ -1,13 +1,13 @@
 buildscript {
-	ext {
-		springBootVersion = '1.5.1.RELEASE'
-	}
-	repositories {
-		mavenCentral()
-	}
-	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-	}
+    ext {
+        springBootVersion = '1.5.1.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
 }
 
 apply plugin: 'java'
@@ -15,20 +15,25 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
 jar {
-	baseName = 'homekeeping'
-	version = '0.0.1-SNAPSHOT'
+    baseName = 'homekeeping'
+    version = '0.0.1-SNAPSHOT'
 }
 
 sourceCompatibility = 1.8
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 
 dependencies {
-	compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:1.2.0')
-	compile('org.springframework.boot:spring-boot-starter-web')
-	runtime('org.postgresql:postgresql')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:1.2.0')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-security:1.4.2.RELEASE')
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '1.4.2.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '1.4.2.RELEASE'
+    compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.7.0'
+    compile group: 'org.springframework', name: 'springloaded', version: '1.2.6.RELEASE'
+    runtime('org.postgresql:postgresql')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }

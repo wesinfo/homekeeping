@@ -1,4 +1,4 @@
-package com.HKNet114221;
+package com.HKNet114221.Homekeeping;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
