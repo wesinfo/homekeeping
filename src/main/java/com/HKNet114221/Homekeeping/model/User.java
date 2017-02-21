@@ -1,13 +1,15 @@
 package com.HKNet114221.Homekeeping.model;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;
 
 import java.util.*;
 
 
-
+@Mapper
 public class User {
+
     private Integer id;
     private String email;
     private String username;
