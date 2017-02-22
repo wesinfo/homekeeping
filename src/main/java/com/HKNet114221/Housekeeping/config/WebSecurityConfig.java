@@ -1,6 +1,6 @@
-package com.HKNet114221.Homekeeping.config;
+package com.HKNet114221.Housekeeping.config;
 
-import com.HKNet114221.Homekeeping.jwt.*;
+import com.HKNet114221.Housekeeping.jwt.*;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

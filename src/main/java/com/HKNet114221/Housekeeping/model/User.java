@@ -1,4 +1,4 @@
-package com.HKNet114221.Homekeeping.model;
+package com.HKNet114221.Housekeeping.model;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

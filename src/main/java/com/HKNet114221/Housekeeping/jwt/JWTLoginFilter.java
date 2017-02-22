@@ -1,6 +1,6 @@
-package com.HKNet114221.Homekeeping.jwt;
+package com.HKNet114221.Housekeeping.jwt;
 
-import com.HKNet114221.Homekeeping.model.User;
+import com.HKNet114221.Housekeeping.model.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.security.authentication.*;
 import org.springframework.security.core.*;

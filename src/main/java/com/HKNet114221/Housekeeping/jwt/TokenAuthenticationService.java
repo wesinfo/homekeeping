@@ -1,4 +1,4 @@
-package com.HKNet114221.Homekeeping.jwt;
+package com.HKNet114221.Housekeeping.jwt;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
