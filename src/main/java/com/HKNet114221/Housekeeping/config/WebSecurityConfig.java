@@ -14,7 +14,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
         http.headers().cacheControl();
 
         http.csrf().disable() // disable csrf for our requests.
-                .authorizeRequests().antMatchers("/").permitAll()
+                .authorizeRequests().antMatchers("/**").permitAll()
                 .antMatchers("/*.js").permitAll().antMatchers("/*.html")
                 .permitAll().antMatchers("/*.css").permitAll()
                 .antMatchers("/*.map").permitAll().antMatchers("/*.woff")
