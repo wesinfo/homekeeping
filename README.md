@@ -6,3 +6,4 @@
   * 1.git clone
   * 2.导入jar依赖
   * 3.build 前端 https://github.com/angular/angular-cli
+  * 4.test svn import
