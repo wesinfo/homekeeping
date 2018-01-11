@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page link="com.handpay.testcase.gen.support.AgentManage">
+<element name="iframe_main">
+<locator type="id">iframe_main</locator>
+</element>
+</page>
