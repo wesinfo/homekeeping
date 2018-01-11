@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page link="com.handpay.testcase.gen.support.MerchantManage">
+<element name="iframe_main">
+<locator type="id">iframe_main</locator>
+</element>
+<element name="商户管理/添加商户/用户名">
+<locator type="xpath">用户名xpath</locator>
+</element>
+<element name="商户管理/修改商户/点击用户">
+<locator type="xpath">点击用户名操作</locator>
+</element>
+<element name="商户管理/删除商户/用户删除操作">
+<locator type="xpath">点击用户删除xpath</locator>
+</element>
+</page>
