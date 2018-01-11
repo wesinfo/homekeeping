@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page link="com.handpay.testcase.gen.agent.UserName">
+<element name="iframe_main">
+<locator type="id">iframe_main</locator>
+</element>
+<element name="测试用户管理测试/新增用户/测试提交代码功能">
+<locator type="xpath">asdasd</locator>
+</element>
+<element name="测试用户管理测试/新增用户/菜单操作登录">
+<locator type="xpath">点击连接</locator>
+</element>
+<element name="测试用户管理测试/新增用户/用户名">
+<locator type="xpath">xpath用户名</locator>
+</element>
+<element name="测试用户管理测试/新增用户/输入密码">
+<locator type="xpath">密码xpath</locator>
+</element>
+<element name="测试用户管理测试/新增用户/点击登录">
+<locator type="xpath">登录xpath</locator>
+</element>
+<element name="测试用户管理测试/新增用户/添加民生用户">
+<locator type="xpath">民生用户xpath</locator>
+</element>
+<element name="测试用户管理测试/修改用户/修改用户名">
+<locator type="xpath">用户名xpath</locator>
+</element>
+<element name="测试用户管理测试/修改用户/点击用户管理">
+<locator type="xpath">用户xpath</locator>
+</element>
+<element name="测试用户管理测试/删除用户/删除用户jjyin01">
+<locator type="xpath">jinyinxpath</locator>
+</element>
+</page>
