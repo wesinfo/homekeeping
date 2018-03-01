@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page link="com.handpay.testcase.gen.support.TestIframe">
+<element name="iframe_main">
+<locator type="id">iframe_main</locator>
+</element>
+<element name="测试Iframe/测试iframe功能/测试菜单">
+<locator frame="iframe_main" type="xpath">//*[@id="username"]</locator>
+</element>
+</page>
