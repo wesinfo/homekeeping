@@ -6,4 +6,16 @@
 <element name="测试Iframe/测试iframe功能/测试菜单">
 <locator frame="iframe_main" type="xpath">//*[@id="username"]</locator>
 </element>
+<element name="测试Iframe/测试iframe功能/测试输入">
+<locator frame="iframe_main" type="xpath">//*[@id="sdfdd"]</locator>
+</element>
+<element name="测试Iframe/测试iframe功能/测试选择">
+<locator frame="iframe_main" type="xpath">dafdsafdfadf</locator>
+</element>
+<element name="测试Iframe/测试iframe功能/测试选择输入框">
+<locator frame="iframe_main" type="xpath">的飞洒发生</locator>
+</element>
+<element name="测试Iframe/测试iframe功能/测试选择输入框input">
+<locator frame="iframe_main" type="xpath">的飞洒发生</locator>
+</element>
 </page>
