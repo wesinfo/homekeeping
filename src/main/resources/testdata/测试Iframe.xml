@@ -21,4 +21,10 @@
 <element name="测试Iframe/测试iframe功能/测试无需iframe">
 <locator frame="iframe_main" type="xpath">dfadsfadffadfd</locator>
 </element>
+<element name="测试Iframe/测试iframe功能/输入">
+<locator type="xpath">的顶顶顶顶顶</locator>
+</element>
+<element name="测试Iframe/测试iframe功能/选择">
+<locator frame="iframe_main" type="xpath">的的顶顶顶顶顶的</locator>
+</element>
 </page>
