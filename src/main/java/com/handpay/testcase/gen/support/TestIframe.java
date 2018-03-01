@@ -21,6 +21,7 @@ public class TestIframe extends HpayBaseCase {
     clearType("测试Iframe/测试iframe功能/测试输入",data.get("测试输入"));
     select("测试Iframe/测试iframe功能/测试选择",data.get("测试选择"));
     selectDataGet("测试Iframe/测试iframe功能/测试选择输入框","测试Iframe/测试iframe功能/测试选择输入框input",data.get("测试选择输入框"));
+    click("测试Iframe/测试iframe功能/测试无需iframe");
     login.userLogout();
   }
 }

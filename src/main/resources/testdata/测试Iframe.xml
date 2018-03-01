@@ -18,4 +18,7 @@
 <element name="测试Iframe/测试iframe功能/测试选择输入框input">
 <locator frame="iframe_main" type="xpath">的飞洒发生</locator>
 </element>
+<element name="测试Iframe/测试iframe功能/测试无需iframe">
+<locator type="xpath">dfadsfadffadfd</locator>
+</element>
 </page>
