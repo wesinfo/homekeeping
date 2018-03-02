@@ -27,4 +27,7 @@
 <element name="测试Iframe/测试iframe功能/选择">
 <locator frame="iframe_main" type="xpath">的的顶顶顶顶顶的</locator>
 </element>
+<element name="测试Iframe/测试iframe功能/dsafas">
+<locator frame="iframe_main" type="xpath">dddd</locator>
+</element>
 </page>
